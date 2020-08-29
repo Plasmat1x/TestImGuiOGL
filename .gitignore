@@ -14,7 +14,7 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
+#*.dll
 
 # Fortran module files
 *.mod
@@ -24,9 +24,53 @@
 *.lai
 *.la
 *.a
-*.lib
+#*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# Visual studio
+
+
+# Folders
+bin/
+./x64/
+include/box2d/
+include/freetype/
+include/SDL/
+include/stb/
+include/tinyxml/
+include/tinyxml2/
+
+# Other files
+include/ft2build.h
+/.vs
+/OpenGLimGUI/.vs
+/OpenGLimGUI/include/box2d
+/OpenGLimGUI/include/freetype
+/OpenGLimGUI/include/SDL
+/OpenGLimGUI/include/stb
+/OpenGLimGUI/include/tinyxml
+/OpenGLimGUI/include/tinyxml2/tinyxml2.cpp
+/OpenGLimGUI/include/tinyxml2
+/OpenGLimGUI/include/ft2build.h
+/OpenGLimGUI/lib/x64/box2d.lib
+/OpenGLimGUI/lib/x64/freetype.dll
+/OpenGLimGUI/lib/x64/freetype.lib
+/OpenGLimGUI/lib/x64/SDL2.dll
+/OpenGLimGUI/lib/x64/SDL2.lib
+/OpenGLimGUI/lib/x64/SDL2main.lib
+/OpenGLimGUI/lib/x64/SDL2test.lib
+/OpenGLimGUI/lib/x64/tinyxml.lib
+/OpenGLimGUI/lib/x64/tinyxmlSTL.lib
+/OpenGLimGUI/lib/x86/freetype.dll
+/OpenGLimGUI/lib/x86/freetype.lib
+/OpenGLimGUI/lib/x86/SDL2.dll
+/OpenGLimGUI/lib/x86/SDL2.lib
+/OpenGLimGUI/lib/x86/SDL2main.lib
+/OpenGLimGUI/lib/x86/SDL2test.lib
+/OpenGLimGUI/lib/x86/tinyxml.lib
+/OpenGLimGUI/lib/x86/tinyxmlSTL.lib
+/OpenGLimGUI/x64
