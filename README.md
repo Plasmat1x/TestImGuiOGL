@@ -1,2 +1,2 @@
 # TestImGuiOGL
-C++; OpenGL 3.x; Imgui
+C++; OpenGL 4.5; Imgui
